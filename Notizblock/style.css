@@ -1,0 +1,56 @@
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.button{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.headTitle{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.addButton{
+    background-color: #9d9aca;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+body{
+    margin: 0px;
+    background-color: azure;
+}
+
+.createNotice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.showNotice{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #d3d6a6;
+    margin: 2px;
+}

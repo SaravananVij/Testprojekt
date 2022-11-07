@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+    
+}
+
+header {
+    height: 100px;
+    background-color: orange;
+}
+
+.content {
+    display: flex;
+}
+
+.left {
+    height: 8000px;
+    width: 70%;
+    background-color: azure;
+}
+
+.productArea {
+    height: 1000px;
+    margin: 25px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: aquamarine;
+}
+
+.addProduct{
+    cursor: pointer;
+}
+
+.btnMinus{
+    cursor: pointer;
+}
+
+.btnPlus{
+    cursor: pointer;
+}
+
+.selectedProductDelete{
+    cursor: pointer;
+}
+
+.right {
+    width: 30%;
+    height: 100vh;
+    background-color: antiquewhite;
+    position: sticky;
+    top: 0px;
+}
+
+.basket {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.basketTitle {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+
+}
+
+.selectedProduct {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+.cart-footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.subtotal {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.total {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+footer {
+    height: 300px;
+    background-color: gray;
+}
